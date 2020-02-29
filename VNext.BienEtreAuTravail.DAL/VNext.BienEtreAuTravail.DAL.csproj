@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200104165425_VnextTables.cs" />
+    <Compile Remove="Migrations\20200104165425_VnextTables.Designer.cs" />
+    <Compile Remove="Migrations\20200104165706_VnextTables.cs" />
+    <Compile Remove="Migrations\20200104165706_VnextTables.Designer.cs" />
+    <Compile Remove="Migrations\20200104165851_VnextTables.cs" />
+    <Compile Remove="Migrations\20200104165851_VnextTables.Designer.cs" />
+    <Compile Remove="Migrations\20200105002045_VnextTable.cs" />
+    <Compile Remove="Migrations\20200105002045_VnextTable.Designer.cs" />
+    <Compile Remove="Migrations\20200110004640_VnextDbTable.cs" />
+    <Compile Remove="Migrations\20200110004640_VnextDbTable.Designer.cs" />
+    <Compile Remove="Migrations\20200110004902_VnextDbTable.cs" />
+    <Compile Remove="Migrations\20200110004902_VnextDbTable.Designer.cs" />
+    <Compile Remove="Migrations\20200110005543_VnextDbTable.cs" />
+    <Compile Remove="Migrations\20200110005543_VnextDbTable.Designer.cs" />
+    <Compile Remove="Migrations\20200110010210_VnextDbTables.cs" />
+    <Compile Remove="Migrations\20200110010210_VnextDbTables.Designer.cs" />
+    <Compile Remove="Migrations\20200115231131_VnextDbTab.cs" />
+    <Compile Remove="Migrations\20200115231131_VnextDbTab.Designer.cs" />
+    <Compile Remove="Migrations\20200115231336_VnextDbTab.cs" />
+    <Compile Remove="Migrations\20200115231336_VnextDbTab.Designer.cs" />
+    <Compile Remove="Migrations\20200115231551_VnextDbTab.cs" />
+    <Compile Remove="Migrations\20200115231551_VnextDbTab.Designer.cs" />
+    <Compile Remove="Migrations\20200115233314_VnextDbTab.cs" />
+    <Compile Remove="Migrations\20200115233314_VnextDbTab.Designer.cs" />
+    <Compile Remove="Migrations\20200115234912_VnextDbTab.cs" />
+    <Compile Remove="Migrations\20200115234912_VnextDbTab.Designer.cs" />
+    <Compile Remove="Migrations\20200115235147_VnextDbTab.cs" />
+    <Compile Remove="Migrations\20200115235147_VnextDbTab.Designer.cs" />
+    <Compile Remove="Migrations\20200116000223_VnextDbTab.cs" />
+    <Compile Remove="Migrations\20200116000223_VnextDbTab.Designer.cs" />
+    <Compile Remove="Migrations\20200116000357_VnextDbTab.cs" />
+    <Compile Remove="Migrations\20200116000357_VnextDbTab.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Dapper" Version="2.0.30" />
+    <PackageReference Include="Dapper.Contrib" Version="2.0.30" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="3.1.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.7.0" />
+  </ItemGroup>
+
+</Project>
